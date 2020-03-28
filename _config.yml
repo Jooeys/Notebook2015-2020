@@ -13,8 +13,8 @@
 
     # URL
     ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-    url: https://jooeys.gitlab.io/Notebook2015-2020
-    root: /
+    url: https://jooeys.github.io/Notebook2015-2020
+    root: /Notebook2015-2020/
     permalink: :title/
     permalink_defaults:
 
@@ -79,7 +79,7 @@
     ## Docs: https://hexo.io/docs/deployment.html
     deploy:
       type: git
-      repo: git@github.com:Jooeys/Notebook2015-2020.gitgit init
+fi      repo: git@github.com:Jooeys/Notebook2015-2020.gitgit init
       branch: gh-pages
 
     markdown:
